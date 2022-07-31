@@ -9,8 +9,11 @@ laravel with vite inertia role example.
 ### Quick Start :
 ```shell
 cp .env.example .env
-set database
+setup you favorite database
 composer install
+
+php artisan migrate:fresh --seed
+
 npm install
 npm run serve
 ```

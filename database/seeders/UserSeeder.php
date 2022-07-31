@@ -49,7 +49,7 @@ class UserSeeder extends Seeder
         ]);
         $user->assignRole(User::ACCESS_ROLE_USER);
 
-        User::factory(100)->create();
-        // User::factory(100000)->create();
+        // User::factory(100)->create();
+        User::factory(100000)->create();
     }
 }
